@@ -1,0 +1,54 @@
+body {
+    background-color: #F1F3F5;
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card .dropdown-toggle::after {
+    content: none;
+}
+
+.meetup .btn.btn-orange {
+    color: #E56135;
+    border-color: #c8c8c8;
+    ;
+}
+
+.meetup .btn.btn-cyan {
+    color: #02B875;
+    border-color: #c8c8c8;
+    ;
+}
+
+.info p {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.modal .btn-close {
+    top: -22px;
+    right: -15px;
+    background-color: ghostwhite;
+    font-size: 0.9rem;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .modal-content {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .modal .btn-close {
+        top: 10px;
+        right: 10px;
+        background-color: rgb(114, 114, 114);
+        color: white;
+        font-size: 0.9rem;
+        border-radius: 100%;
+    }
+}
